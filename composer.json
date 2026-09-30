@@ -1,5 +1,5 @@
 {
-    "name": "coquibot/coqui-toolkit-mcp-client",
+    "name": "carmelosantana/coqui-mcp-client",
     "description": "MCP management UX for Coqui — the `mcp` agent tool, `/mcp` REPL command, and OAuth handler. Requires a Coqui core that ships the MCP engine + McpRuntime; this package no longer bundles the engine itself.",
     "type": "library",
     "license": "MIT",
