@@ -13,7 +13,7 @@ The MCP engine itself — the client, stdio transport, JSON-RPC handling, `.work
 ## Installation
 
 ```bash
-composer require coquibot/coqui-toolkit-mcp-client
+composer require carmelosantana/coqui-mcp-client
 ```
 
 When installed alongside Coqui, the toolkit is **auto-discovered** via Composer's `extra.php-agents.toolkits` — no manual registration needed.
@@ -171,8 +171,8 @@ Without this package installed, `mcp(action: "auth", ...)` and `POST /api/v1/mcp
 ## Development
 
 ```bash
-git clone https://github.com/AgentCoqui/coqui-toolkit-mcp-client.git
-cd coqui-toolkit-mcp-client
+git clone https://github.com/carmelosantana/coqui-mcp-client.git
+cd coqui-mcp-client
 composer install
 ```
 
