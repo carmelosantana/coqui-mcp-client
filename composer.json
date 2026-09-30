@@ -24,6 +24,9 @@
         "pestphp/pest": "^4.0",
         "phpstan/phpstan": "^2.0"
     },
+    "replace": {
+        "coquibot/coqui-toolkit-mcp-client": "self.version"
+    },
     "autoload": {
         "psr-4": {
             "CoquiBot\\Toolkits\\Mcp\\": "src/"
